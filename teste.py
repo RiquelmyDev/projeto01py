@@ -19,9 +19,6 @@ email_usuario = preencher_email()
 print("O email inserido foi:", email_usuario)'''
 
 def add_task(tasks, statistics):
-  
-  # task: nome da tarefa
-  # completed: indica se a tarefa foi completada ou não
 
   task = {"task": statistics, "completed": False}
   tasks.append(task)
